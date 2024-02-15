@@ -1,0 +1,71 @@
+div.moveRight {
+	
+	width: 200px;
+    height: 100px;
+    margin: 10px;
+	background-color: rgb(222, 134, 134);
+    position: relative;
+	left:200px;
+	top: 0px;
+    animation-name: moveright;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;  
+	
+}
+
+@keyframes moveright {
+    0%   {left:0px;  }
+    100% {left:200px; }
+}
+
+div.moveRight2 {
+	
+	width: 200px;
+    height: 100px;
+	margin: 10px;
+    background-color: rgb(222, 134, 134);
+    position: relative;
+	left:-300px;
+	top: 100px;
+    animation-name: moveright;
+	animation-delay: 6s;
+    animation-duration: 4s;
+    animation-fill-mode: forwards;  
+	
+}
+
+div.moveLeft {
+	
+	width: 200px;
+    height: 100px;
+    margin: 10px;
+	background-color: rgb(159, 134, 222);
+    position: relative;
+	left:2000px;
+	top: 0px;
+    animation-name: moveleft;
+    animation-delay: 3s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;  
+	
+}
+
+@keyframes moveleft {
+    0%   {left:2000px;  }
+    100% {left:1350px; }
+}
+
+div.moveLeft2 {
+	
+	width: 200px;
+    height: 100px;
+    margin: 10px;
+	background-color: rgb(159, 134, 222);
+    position: relative;
+	left: 2000px;
+	top: 100px;
+    animation-name: moveleft;
+    animation-delay: 9s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
