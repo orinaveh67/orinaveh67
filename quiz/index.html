@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Quiz</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+</head>
+
+<body>
+    <div class="welcome-screen">
+        <h1>Plan your next trip!</h1>
+        <p>To start, press here.</p>
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored start-button"
+            onclick="startQuiz()">Start!</button>
+    </div>
+
+    <div class="quiz-container">
+        <div id="question" class="question"></div>
+        <div id="options" class="options"></div>
+        <div class="button-container">
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored quiz-button"
+                onclick="submitAnswer()">Next</button>
+            <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored quiz-button"
+                onclick="backQuestion()">Previous</button>
+        </div>
+        <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored finish-button"
+            onclick="showResult()">End Questionnaire</button>
+        <div id="result" class="result-container">
+            <div id="resultImage" class="result-image"></div>
+            <div id="resultText" class="result-text"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
