@@ -42,7 +42,7 @@ body {
 
 .finish-button {
     display: none;
-    margin-top: 10px; /* Adjust the margin as needed */
+    margin-top: 10px; 
 }
 
 .welcome-screen {
@@ -68,7 +68,7 @@ body {
 .result-image {
     background-size: cover;
     background-position: center;
-    height: 300px; /* Adjust the height as needed */
+    height: 300px; 
     margin-top: 20px;
     color: white;
     font-size: 24px;
