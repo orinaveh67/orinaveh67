@@ -61,7 +61,6 @@ function selectOption(index) {
 }
 
 function updateScores(selectedOption) {
-    // Use city names directly
     switch (currentQuestion) {
         case 0:
             scores.London += (selectedOption === "I love the thrill of the casino! It's a must for my trip.") ? 1 : 0;
@@ -94,30 +93,22 @@ function updateScores(selectedOption) {
 }
 
 function handleTiebreaker(selectedOption) {
-    // Handle tiebreaker logic here
-    // For simplicity, let's assume the tiebreaker question is "What is your budget for the trip?"
     const budgetQuestion = "What is your budget for the trip?";
     const budgetOptions = ["Low", "Medium", "High"];
 
-    // Display tiebreaker question and options
     const questionElement = document.getElementById("question");
     const optionsElement = document.getElementById("options");
 
     questionElement.textContent = budgetQuestion;
     showOptions(budgetOptions);
 
-    // Override the submitAnswer function for tiebreaker
     submitAnswer = function () {
-        // Process tiebreaker answer and show result
         const tiebreakerAnswer = document.querySelector(".option.selected").textContent;
         processTiebreakerAnswer(tiebreakerAnswer);
     };
 }
 
 function processTiebreakerAnswer(tiebreakerAnswer) {
-    // Use tiebreaker answer to determine the final result
-    // Update scores or perform any other logic as needed
-    // For simplicity, let's just show the result based on the tiebreaker
     showResult();
 }
 
@@ -132,7 +123,6 @@ function submitAnswer() {
     if (currentQuestion < 5) {
         showQuestion();
     } else {
-        // Check for a tie and show tiebreaker if needed
         handleTiebreaker();
     }
 }
