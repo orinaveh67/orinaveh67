@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-image: url('forest.jpeg');
+    background-size: cover;
+}
+
+
+.arrow {
+    width: 240px;
+    height: 170px;
+    margin: 10px;
+    position: relative;
+    left: -300px;
+    top: 280px;
+    opacity: 1;
+    background-image: url('arrow.png');
+    background-color: transparent;
+    background-size: contain; /* Adjusts image size to fit the button */
+    background-position: center;
+    background-repeat: no-repeat; /* Ensures the image isn't repeated */
+    cursor: pointer; /* Makes the button cursor change to pointer on hover */
+    border: none; /* Removes the border */
+    padding: 0; /* Removes padding */
+    z-index: 1;
+}
+
+.endingAnimation {
+    animation-name: moveright;
+    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveright {
+    0% {
+        left: -300px;
+    }
+
+    100% {
+        left: 0px;
+    }
+}
+
+.key {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    position: relative;
+    left: 1270px;
+    top: 300px;
+    opacity: 1;
+    background-image: url('key.png');
+    background-color: transparent;
+    background-size: contain; /* Adjusts image size to fit the button */
+    background-position: center;
+    background-repeat: no-repeat; /* Ensures the image isn't repeated */
+    cursor: pointer; /* Makes the button cursor change to pointer on hover */
+    border: none; /* Removes the border */
+    padding: 0; /* Removes padding */
+    z-index: 1;
+}
+
+.startAnimation {
+    animation-name: moveleft2;
+    animation-delay: 2s;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveleft2 {
+    0% {
+        top: 300px;
+        opacity: 1;
+    }
+
+    100% {
+        top: 100px;
+        opacity: 0;
+    }
+}
+
+
+.buttons {
+    width: 180px;
+    height: 130px;
+    margin: 10px;
+    position: relative;
+    left: 400px;
+    top: 400px; 
+    background-image: url('bush.png');
+    background-color: transparent;
+    background-size: contain; /* Adjusts image size to fit the button */
+    background-position: center;
+    background-repeat: no-repeat; /* Ensures the image isn't repeated */
+    cursor: pointer; /* Makes the button cursor change to pointer on hover */
+    border: none; /* Removes the border */
+    padding: 0; /* Removes padding */
+    z-index: 2;
+}
+
+.buttons1 {
+    width: 180px;
+    height: 130px;
+    margin: 10px;
+    position: relative;
+    left: 500px;
+    top: 500px; 
+    background-image: url('bush.png');
+    background-color: transparent;
+    background-size: contain; /* Adjusts image size to fit the button */
+    background-position: center;
+    background-repeat: no-repeat; /* Ensures the image isn't repeated */
+    cursor: pointer; /* Makes the button cursor change to pointer on hover */
+    border: none; /* Removes the border */
+    padding: 0; /* Removes padding */
+    z-index: 2;
+}
+
+.buttons2 {
+    width: 180px;
+    height: 130px;
+    margin: 10px;
+    position: relative;
+    left: 550px;
+    top: 400px; 
+    background-image: url('bush.png');
+    background-color: transparent;
+    background-size: contain; /* Adjusts image size to fit the button */
+    background-position: center;
+    background-repeat: no-repeat; /* Ensures the image isn't repeated */
+    cursor: pointer; /* Makes the button cursor change to pointer on hover */
+    border: none; /* Removes the border */
+    padding: 0; /* Removes padding */
+    z-index: 2;
+}
+
+.buttons3 {
+    width: 180px;
+    height: 130px;
+    margin: 10px;
+    position: relative;
+    left: 400px;
+    top: 550px; 
+    background-image: url('bush.png');
+    background-color: transparent;
+    background-size: contain; /* Adjusts image size to fit the button */
+    background-position: center;
+    background-repeat: no-repeat; /* Ensures the image isn't repeated */
+    cursor: pointer; /* Makes the button cursor change to pointer on hover */
+    border: none; /* Removes the border */
+    padding: 0; /* Removes padding */
+    z-index: 2;
+}
+
+.buttons4 {
+    width: 180px;
+    height: 130px;
+    margin: 10px;
+    position: relative;
+    left: 400px;
+    top: 420px; 
+    background-image: url('bush.png');
+    background-color: transparent;
+    background-size: contain; /* Adjusts image size to fit the button */
+    background-position: center;
+    background-repeat: no-repeat; /* Ensures the image isn't repeated */
+    cursor: pointer; /* Makes the button cursor change to pointer on hover */
+    border: none; /* Removes the border */
+    padding: 0; /* Removes padding */
+    z-index: 2;
+}
+
+.buttons5 {
+    width: 180px;
+    height: 130px;
+    margin: 10px;
+    position: relative;
+    left: -200px;
+    top: 600px; 
+    background-image: url('bush.png');
+    background-color: transparent;
+    background-size: contain; /* Adjusts image size to fit the button */
+    background-position: center;
+    background-repeat: no-repeat; /* Ensures the image isn't repeated */
+    cursor: pointer; /* Makes the button cursor change to pointer on hover */
+    border: none; /* Removes the border */
+    padding: 0; /* Removes padding */
+    z-index: 2;
+}
+
+.buttons6 {
+    width: 180px;
+    height: 130px;
+    margin: 10px;
+    position: relative;
+    left: -350px;
+    top: 300px; 
+    background-image: url('bush.png');
+    background-color: transparent;
+    background-size: contain; /* Adjusts image size to fit the button */
+    background-position: center;
+    background-repeat: no-repeat; /* Ensures the image isn't repeated */
+    cursor: pointer; /* Makes the button cursor change to pointer on hover */
+    border: none; /* Removes the border */
+    padding: 0; /* Removes padding */
+    z-index: 2;
+}
+
+.buttons7 {
+    width: 180px;
+    height: 130px;
+    margin: 10px;
+    position: relative;
+    left: -800px;
+    top: 350px; 
+    background-image: url('bush.png');
+    background-color: transparent;
+    background-size: contain; /* Adjusts image size to fit the button */
+    background-position: center;
+    background-repeat: no-repeat; /* Ensures the image isn't repeated */
+    cursor: pointer; /* Makes the button cursor change to pointer on hover */
+    border: none; /* Removes the border */
+    padding: 0; /* Removes padding */
+    z-index: 2;
+}
+
+
+
+
+@keyframes sprite-animation {
+    0% { background-position: 0 0; }
+    100% { background-position: -1056px 0; }
+}
+
+@keyframes dead-animation {
+    0% { background-position: 0 0; }
+    100% { background-position: -2586px 0; } 
+}
+
+#dorothy {
+    width: 66px; 
+    height: 72px; 
+    background-image: url('idle2.png');
+    position: absolute;
+    top: 550px;
+    left: 110px;
+    transition: left 3s, top 3s;
+    animation: sprite-animation 1s steps(16) infinite; 
+    z-index: 1;
+}
+
+
+
+
+div.ending img{
+    width: 180px;
+    height: 50px;
+}
+
+.moveRight, .moveLeft, .moveRight2, .moveLeft2 {
+    transition: opacity 0.5s ease; 
+}
+
+
+
+
+
